@@ -1,0 +1,645 @@
+@media (min-width:320px) and (max-width:767px){
+    /* Nav section starts here */
+    nav .smallButton {
+    margin-right: 19px;
+    }
+    nav #smallMenu .smallSearch .searchIconS {
+        right: 23px;
+    }
+    .offcanvas-header .btn-close {
+        margin-right: calc(2 * var(--bs-offcanvas-padding-x));
+    }
+    /* Nav section ends here */
+    
+    
+    /* Banner section starts here */
+    #banner .bannerSlider {
+        height: 190px;
+    }
+    #banner .bannerSlider .row {
+        height: 190px;
+    }
+    #banner .bannercnt h4 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    #banner .bannercnt h1 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 10px;
+        color: var(--sixthColor);
+        padding: 10px 0;
+    }
+    #banner .bannercnt p {
+        font-size: 10px;
+        line-height: 18px;
+        width: 65%;
+        padding-bottom: 10px;
+    }
+    #banner .bannercnt a {
+        padding: 12px 10px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+    #banner .bannercnt a span {
+        margin-left: 7px;
+    }
+    #banner .slick-dots {
+        bottom: -7px;
+        left: 124px;
+    }
+    #banner .slick-dots button {
+        width: 11px;
+        height: 6px;
+    }
+    #banner .slick-dots .slick-active button {
+        width: 15px;
+    }
+    /* Banner section ends here */
+    
+    /* Cetagories section starts here */
+    #cetagories {
+        padding: 25px 0;
+    }
+    .cetagoryCard .Ceta_overlay h3 {
+        font-size: 25px;
+        line-height: 25px;
+        margin-top: 40px;
+    }
+    .cetagoryCard .Ceta_overlay a {
+        font-size: 12px;
+    }
+    .cetagoryCard .Ceta_overlay_fair h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 77px;
+    }
+    #cetagories .cetagoryCard:last-child{
+        margin-top: 20px;
+    }
+    #cetagories .cetagoryCard:nth-child(1) {
+        margin-bottom: 2px;
+    }
+    /* Cetagories secrion ends here */
+
+    /* shop Now section starts here */
+    #shopNow {
+        padding: 20px 0;
+        height: 200px;
+    }
+    #shopNow .shopCnt h2 {
+        font-size: 16px;
+        line-height: 22px;
+        width: 60%;
+    }
+    #shopNow .shopCnt p {
+        font-size: 9px;
+        line-height: 20px;
+        width: 70%;
+        padding: 1px 0 10px 0;
+    }
+    #shopNow .shopCnt a {
+        padding: 10px 10px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    #shopNow .shopCnt a span {
+        margin-left: 6px;
+    }
+    /* shop now section ends here */
+
+    /* Deals day section starts here */
+    #dealsDay {
+        padding: 35px 0;
+    }
+    #dealsDay h3 {
+        font-size: 25px;
+    }
+    .dealsWrapper {
+        margin-top: -15px;
+    }
+    .dealsWrapper .countdown {
+        width: 234px;
+    }
+    .dealsWrapper .countdown ul li {
+        font-size: 12px;
+        padding: 0 12px;
+    }
+    .dealsWrapper .countdown ul li span {
+        font-size: 18px;
+    }
+    .dealsWrapper .countdown ul li::after,
+    .dealsWrapper .countdown ul li::before {
+        width: 5px;
+        height: 5px;
+    }
+    .dealsWrapper .countdown ul li::before {
+        bottom: 18px;
+    }
+    .dealsWrapper .countdown ul li::after {
+        top: 18px;
+    }
+    .dealsWrapper .dealcnt {
+        padding: 65px 0px;
+    }
+    .dealsWrapper .dealcnt .deal_card {
+        padding: 25px 10px 30px 20px;
+    }
+    .dealsWrapper .dealcnt .deal_card h5 {
+        font-size: 13px;
+    }
+    .dealsWrapper .dealcnt .deal_card h2 {
+        font-size: 22px;
+        margin: 2px 0 2px 0;
+    }
+    .dealsWrapper .dealcnt .deal_card p {
+        font-size: 11px;
+        width: 98%;
+    }
+    .dealsWrapper .dealcnt .deal_card h4 {
+        font-size: 15px;
+        margin: 2px 0 20px 0;
+    }
+    .dealsWrapper .dealcnt .deal_card h4 span {
+        font-size: 15px;
+    }
+    .dealsWrapper .dealcnt .deal_card a {
+        padding: 12px 15px;
+    }
+    .dealsWrapper .dealcnt .deal_card a span {
+        margin-left: 5px;
+    }
+    /* Deals day section ends here */
+
+    /* BeautyInspire section starts here */
+    #beautyInspire {
+        padding: 25px 0;
+    }
+    #beautyInspire .beautyInfo {
+        height: 200px;
+    }
+    .beautyInfo .beautycnt {
+        margin-left: 15px;
+        width: 80%;
+    }
+    .beautyInfo .beautycnt h4 {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .beautyInfo .beautycnt h2 {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 0 0 0 0;
+    }
+    .beautyInfo .beautycnt p {
+        font-size: 11px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    .beautyInfo .beautycnt a {
+        padding: 9px 10px;
+        font-size: 10px;
+        line-height: 28px;
+    }
+    .beautyvideo video {
+        margin-top: 25px;
+    }
+    /* BeautyInspire section ends here */
+
+    /* Latest section starts here */
+    #latestNews {
+        padding: 25px 0;
+    }
+    #latestNews h3 {
+        font-size: 26px;
+    }
+    #latestNews h3 {
+        margin-bottom: 15px;
+    }
+    /* Latest section ends here */
+    
+    /* footer section starts here */
+    footer {
+        margin-top: 40px;
+    }
+    footer .footer-upper {
+        display: none;
+    }
+    footer .aytorIcons {
+        padding: 181px 0 36px 0;
+    }
+    footer .aytorIcons .aytorLogos .footerLogo {
+        margin-top: -130px;
+    }
+    footer .aytorIcons .SocialIcons ul {
+        margin-top: -52px;
+        text-align: center;
+    }
+    footer .aytorIcons .SocialIcons ul li a {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    footer .aytorIcons .presents {
+        text-align: center;
+    }
+    footer .footerDis {
+        padding: 35px 40px;
+    }
+    .footerHeading {
+        font-size: 24px;
+        line-height: 20px;
+    }
+    footer .myAccounts ul, footer .support ul, 
+    footer .contactInfo, footer .newsletterInfo {
+        padding-top: 22px;
+    }
+    footer .myAccounts ul li, footer .support ul li {
+        margin-bottom: 8px;
+    }
+    footer .myAccounts, footer .openingTime, footer .support, footer .contactUs, footer .newsLetter {
+        padding-top: 9px;
+    }
+    .contactUs .information .icon span {
+        font-size: 17px;
+    }
+    .contactUs .information .loc a {
+        font-size: 14px;
+    }
+    footer .newsLetter .newsletterInfo p {
+        font-size: 12px;
+    }
+    .newsLetter .newsletterInfo .subscribe input {
+        width: 146px;
+        height: 53px;
+        padding-left: 4px;
+    }
+    .newsLetter .newsletterInfo .subscribe a {
+        padding: 12px 0;
+        font-size: 11px;
+        line-height: 27px;
+    }
+    footer .copyRight {
+        padding: 15px 0;
+    }
+    footer .copyRight p {
+        font-size: 12px;
+    }
+    
+    /* footer section ends here */
+
+}
+@media (min-width:768px) and (max-width:991px){
+    /* Nav section starts here */
+    nav .smallButton {
+        margin-right: 81px;
+    }
+    /* Nav section ends here */
+    
+    /* Banner section starts here */
+    #banner .bannerSlider {
+        height: 350px;
+    }
+    #banner .bannerSlider .row {
+        height: 350px;
+    }
+    #banner .bannercnt h4 {
+        font-size: 16px;
+    }
+    #banner .bannercnt h1 {
+        font-size: 40px;
+        padding: 0;
+    }
+    #banner .bannercnt p {
+        font-size: 16px;
+        padding-bottom: 13px;
+        width: 60%;
+    }
+    #banner .bannercnt a {
+        padding: 16px 15px;
+        font-size: 16px;
+    }
+    #banner .bannercnt a span {
+        margin-left: 4px;
+    }
+    #banner .slick-dots {
+        bottom: 25px;
+        left: 35px;
+    }
+    #banner .slick-dots button {
+        width: 20px;
+        height: 10px;
+    }
+    #banner .slick-dots .slick-active button {
+        width: 30px;
+    }
+    /* Banner section ends here */
+
+    /* Cetagories section starts here */
+    #cetagories {
+        padding: 40px 0;
+    }
+    .cetagoryCard .Ceta_overlay h3 {
+        margin-top: 130px;
+    }
+    #cetagories .cetagoryCard:nth-child(1) {
+        margin-bottom: 2px;
+    }
+    .cetagoryCard .Ceta_overlay_fair h3 {
+        margin-top: 240px;
+    }
+    #cetagories .cetagoryCard:last-child{
+        margin-top: 40px;
+    }
+    /* Cetagories section ends here */
+
+    /* Shop Now section starts here */
+    #shopNow {
+        padding: 35px 0;
+        height: 350px;
+    }
+    #shopNow .shopCnt h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    #shopNow .shopCnt p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 55%;
+        padding: 10px 0 25px 0;
+    }
+    #shopNow .shopCnt a {
+        padding: 18px 18px;    
+    }
+    /* Shop Now section ends here */
+    }
+     
+    /* BeautyInspire section starts here */
+    .beautyInfo .beautycnt {
+        margin-left: 41px;
+        width: 60%;
+    }
+    .beautyInfo .beautycnt h2 {
+        padding: 3px 0 1px 0;
+        font-size: 32px;
+    }
+    .beautyInfo .beautycnt p {
+        font-size: 14px;
+        margin-bottom: 27px;
+    }
+     .beautyInfo .beautycnt a {
+        padding: 15px 20px;
+    }
+    /* BeautyInspire section ends here */
+
+    /* Latest News section starts here */
+    #latestNews {
+        padding: 35px 0;
+    }
+    #latestNews h3 {
+        margin-bottom: 30px;
+    }
+    #latestNews h3 {
+        font-size: 30px;
+    }
+    .latest_card .latest_info h5 {
+        font-size: 14px;
+    }
+    .latest_card .latest_info h6 {
+        margin-left: 13px;
+    }
+    #latestNews  .latest_card .slick-dots {
+        left: 296px;
+    }
+    
+    /* Latest News section ends here */
+
+
+    /* footer section starts here */
+    /* footer .footer-upper{
+        display: none;
+    } */
+    footer .aytorIcons {
+        padding: 38px 0 40px 0;
+    }
+    footer .myAccounts, footer .openingTime, footer .support, footer .contactUs, footer .newsLetter {
+        padding: 32px 0 0 0;
+    }
+    /* footer section ends here */
+
+
+@media (min-width:992px) and (max-width:1199px){
+    /* Nav section starts here */
+    nav .nav_logo {
+     height: 55px;
+    }
+     nav .nav-item a {
+     font-size: 13px;
+    }
+    nav .icons_menu ul{
+     margin-right: 85px;
+     z-index: 0;
+    }
+    nav .icons_menu ul li a {
+     font-size: 15px;
+     padding: 0 10px;
+    }
+    nav .icons_menu ul li .cart-add {
+     right: 6px;
+     top: 5px;
+     width: 8px;
+     height: 10px;
+     line-height: 12px;
+     font-size: 10px;
+     }
+     .searchArea .searchbar {
+         width: 98px;
+         height: 31px;
+         top: -32px;
+         right: -42px;
+     }
+     .searchArea .searchbar input {
+         padding: 0 9px;
+     }
+     .searchArea .cancle_icon{
+         position: absolute;
+         top: -25px;
+         right: -34px;
+         z-index: 1;
+         color: var(--secondaryColor);
+         font-size: 14px;
+     }
+     /* Nav section ends here */
+ 
+     /* Banner section starts here */
+     #banner .bannerSlider {
+         height: 450px;
+     }
+     #banner .bannerSlider .row {
+         height: 450px;
+     }
+     #banner .bannercnt h4 {
+         font-size: 17px;
+     }
+     #banner .bannercnt h1 {
+         font-size: 55px;
+         padding: 5px 0;
+     }
+     #banner .bannercnt p {
+         font-size: 16px;
+         padding-bottom: 30px;
+         width: 50%;
+     }
+     #banner .bannercnt a {
+         padding: 18px 25px;
+         font-size: 18px;
+     }
+     #banner .bannercnt a span {
+         margin-left: 10px;
+     }
+     #banner .slick-dots {
+         bottom: 54px;
+         left: 28px;
+     }
+     #banner .slick-dots button {
+         width: 28px;
+         height: 12px;
+     }
+     #banner .slick-dots .slick-active button {
+         width: 40px;
+     }
+    /* Banner section ends here */
+ 
+    /* Cetagories section starts here */
+    #cetagories .cetagoryCard:nth-child(1) {
+     margin-bottom: 17px;
+    }
+    .cetagoryCard .Ceta_overlay h3 {
+     font-size: 25px;
+     line-height: 35px;
+     margin-top: 58px;
+    }
+    .cetagoryCard .Ceta_overlay a {
+     font-size: 15px;
+    }
+    .cetagoryCard .Ceta_overlay_fair h3 {
+     font-size: 25px;
+     line-height: 35px;
+     margin-top: 175px;
+ }
+    /* Cetagories section ends here */
+ 
+    /* Shop now section starts here */
+ 
+    #shopNow .shopCnt h2 {
+     font-size: 30px;
+     line-height: 40px;
+     }
+     #shopNow .shopCnt p {
+         font-size: 16px;
+         width: 40%;
+         padding: 20px 0 30px 0;
+     }
+     
+ 
+    /* Shop now section ends here */
+    /* BeautyInspire section starts here */
+    .beautyInfo .beautycnt {
+        margin-left: 37px;
+        width: 80%;
+    }
+    .beautyInfo .beautycnt h4 {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .beautyInfo .beautycnt h2 {
+        font-size: 30px;
+        padding: 3px 0 10px 0;
+        line-height: 40px;
+    }
+    .beautyInfo .beautycnt p {
+        font-size: 14px;
+        margin-bottom: 11px;
+    }
+    .beautyInfo .beautycnt a {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    /* BeautyInspire section ends here */
+    /* Latest News section starts here */
+    .latest_card .latest_info h6 {
+     font-size: 12px;
+     margin-left: 14px;
+     }
+     .latest_card .latest_info a {
+         font-size: 12px;
+     }
+     #latestNews {
+         padding: 40px 0;
+     }
+     #latestNews h3 {
+         font-size: 36px;
+     }
+     #latestNews .slick-dots {
+         left: 431px;
+     }
+ 
+    /* Latest News section ends here */
+
+    /* footer section starts here */
+    footer {
+        margin-top: 80px;
+    }
+    .footerHeading {
+        font-size: 20px;
+    }
+    .footerCommon {
+        font-size: 12px;
+    }
+    footer .aytorIcons {
+        padding: 85px 0 40px 0;
+    }
+    footer .openingTime .days {
+        font-size: 12px;
+    }
+    .contactUs .information .loc a {
+        font-size: 12px;
+    }
+    .contactUs .information .icon span {
+        font-size: 20px;
+    }
+    footer .newsLetter .newsletterInfo p {
+        font-size: 13px;
+    }
+    footer .newsLetter .newsletterInfo .subscribe {
+        padding-top: 23px;
+    }
+    .newsLetter .newsletterInfo .subscribe input {
+        width: 154px;
+        height: 43px;
+        padding-left: 7px;
+    }
+    .newsLetter .newsletterInfo .subscribe a {
+        padding: 14px 4px;
+        margin-left: -7px;
+        font-size: 13px;
+        line-height: 13px;
+        margin-top: 2px;
+    }
+    footer .copyRight {
+        padding: 20px 0;
+    }
+    /* footer section ends here */
+ }
+ 
+
+
+
+
+
+
+
+
+
